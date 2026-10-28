@@ -1,11 +1,9 @@
 let rawMonthData = [];
 let availableMonths = [];
-let selectedGsPaper = 'all';
 
 const searchInput = document.getElementById('search-input');
 const monthSelect = document.getElementById('month-select');
 const dateInput = document.getElementById('date-input');
-const gsTabsContainer = document.getElementById('gs-tabs-container');
 
 const articlesContainer = document.getElementById('articles-container');
 const mainsContainer = document.getElementById('mains-container');
@@ -22,7 +20,7 @@ function setupEventListeners() {
     
     monthSelect.addEventListener('change', (e) => {
         if (e.target.value) {
-            loadMonthData(e.target.value);
+            loadMonthData(e.target.value, true); // Reset date input when switching months
         }
     });
 
@@ -43,7 +41,7 @@ function setupEventListeners() {
     });
 }
 
-// 1. Load manifest containing month keys (e.g., ["2026-10"])
+// 1. Fetch manifest of month keys
 async function initApp() {
     try {
         const response = await fetch('./data/index.json');
@@ -60,15 +58,15 @@ async function initApp() {
             <option value="${m}">${formatMonthLabel(m)}</option>
         `).join('');
 
-        loadMonthData(availableMonths[0]);
+        loadMonthData(availableMonths[0], true);
     } catch (err) {
         monthSelect.innerHTML = `<option value="">Error loading index.json</option>`;
         articlesContainer.innerHTML = `<div class="card loading-text">Failed to initialize manifest.</div>`;
     }
 }
 
-// 2. Load monthly file (e.g., data/2026-10.json)
-async function loadMonthData(monthKey) {
+// 2. Fetch selected month's JSON and pick the latest available date on initial load
+async function loadMonthData(monthKey, setLatestDate = false) {
     articlesContainer.innerHTML = `<div class="card loading-text">Loading data for ${monthKey}...</div>`;
     try {
         const response = await fetch(`./data/${monthKey}.json`);
@@ -76,7 +74,12 @@ async function loadMonthData(monthKey) {
         
         rawMonthData = await response.json(); // Array of days
         
-        buildGsTabs(rawMonthData);
+        if (setLatestDate && rawMonthData.length > 0) {
+            // Sort days descending to find the latest date
+            const sortedDays = [...rawMonthData].sort((a, b) => b.date.localeCompare(a.date));
+            dateInput.value = sortedDays[0].date;
+        }
+
         renderViews();
     } catch (err) {
         rawMonthData = [];
@@ -85,62 +88,10 @@ async function loadMonthData(monthKey) {
     }
 }
 
-// 3. Build GS filter pills dynamically from the loaded month's articles
-function buildMonthGsTabs(monthData) {
-    const gsSet = new Set();
-    let totalCount = 0;
-
-    monthData.forEach(day => {
-        if (day.articles) {
-            day.articles.forEach(art => {
-                if (art.gs_paper) gsSet.add(art.gs_paper);
-                totalCount++;
-            });
-        }
-    });
-
-    const sortedGs = Array.from(gsSet).sort();
-    selectedGsPaper = 'all';
-
-    gsTabsContainer.innerHTML = `
-        <button class="gs-tab active" data-gs="all">All (${totalCount})</button>
-        ${sortedGs.map(gs => {
-            let count = 0;
-            monthData.forEach(day => {
-                if (day.articles) {
-                    count += day.articles.filter(a => a.gs_paper === gs).length;
-                }
-            });
-            return `<button class="gs-tab" data-gs="${gs}">${gs} (${count})</button>`;
-        }).join('')}
-    `;
-
-    document.querySelectorAll('.gs-tab').forEach(tab => {
-        tab.addEventListener('click', () => {
-            document.querySelectorAll('.gs-tab').forEach(t => t.classList.remove('active'));
-            tab.classList.add('active');
-            selectedGsPaper = tab.getAttribute('data-gs');
-            renderViews();
-        });
-    });
-}
-
-function buildGsTabs(monthData) {
-    buildMonthGsTabs(monthData);
-}
-
-// 4. Filter data by search query, selected specific date, and GS paper
-function filterData() {
-    const query = searchInput.value.toLowerCase();
-    const selectedDate = dateInput.value;
-
-    const filteredDays = monthDataMapper(rawMonthData, selectedDate, query, selectedGsPaper);
-    return filteredDays;
-}
-
-function monthDataMapper(data, targetDate, query, gsFilter) {
+// 3. Filter data strictly for selected date and search query
+function monthDataMapper(data, targetDate, query) {
     return data.map(dayGroup => {
-        // Filter by specific date if date picker has a value
+        // Only render the selected date's articles
         if (targetDate && dayGroup.date !== targetDate) {
             return null;
         }
@@ -148,11 +99,8 @@ function monthDataMapper(data, targetDate, query, gsFilter) {
         if (!dayGroup.articles) return null;
 
         const matchedArticles = dayGroup.articles.filter(article => {
-            const matchesQuery = article.topic.toLowerCase().includes(query) || 
-                                 article.summary.toLowerCase().includes(query);
-            const matchesGs = gsFilter === 'all' || article.gs_paper === gsFilter;
-
-            return matchesQuery && matchesGs;
+            return article.topic.toLowerCase().includes(query) || 
+                   article.summary.toLowerCase().includes(query);
         });
 
         if (matchedArticles.length === 0) return null;
@@ -167,7 +115,7 @@ function monthDataMapper(data, targetDate, query, gsFilter) {
 function renderViews() {
     const query = searchInput.value.toLowerCase();
     const selectedDate = dateInput.value;
-    const filteredData = monthDataMapper(rawMonthData, selectedDate, query, selectedGsPaper);
+    const filteredData = monthDataMapper(rawMonthData, selectedDate, query);
 
     renderArticles(filteredData);
     renderMains(filteredData);
@@ -175,7 +123,7 @@ function renderViews() {
 
 function renderArticles(data) {
     if (data.length === 0) {
-        articlesContainer.innerHTML = `<div class="card loading-text">No articles found matching criteria.</div>`;
+        articlesContainer.innerHTML = `<div class="card loading-text">No articles found for the selected date.</div>`;
         return;
     }
 
