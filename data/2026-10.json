@@ -1,0 +1,143 @@
+
+{
+  "date": "2026-10-27",
+  "source": "The Hindu",
+  "articles": [
+    {
+      "id": 1,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "Election Commission of India — constitutional independence",
+      "summary": "The Election Commission stated that the Chief Election Commissioner can be removed only through a process similar to that of a Supreme Court judge. Article 324(5) provides constitutional safeguards for the CEC. Other Election Commissioners can be removed by the President on the recommendation of the CEC.",
+      "mainsquestion": "Examine whether the existing constitutional safeguards adequately protect the independence of the Election Commission of India."
+    },
+    {
+      "id": 2,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "Right to Education Act and inclusive education",
+      "summary": "The Right of Children to Free and Compulsory Education Act, 2009, provides free and compulsory education for children aged 6–14 years. Section 12(1)(c) provides for 25% reservation in entry-level classes in private unaided schools for children from economically weaker sections and disadvantaged groups. Implementation challenges include discrimination, reimbursement delays and lack of support for first-generation learners.",
+      "mainsquestion": "Discuss the challenges in implementing the Right to Education Act and suggest measures to ensure equitable and inclusive education."
+    },
+    {
+      "id": 3,
+      "gs_paper": "GS Paper 2",
+      "priority": "Medium",
+      "topic": "Special Executive Magistrates under BNSS",
+      "summary": "Special Executive Magistrates are appointed by State Governments under the Bharatiya Nagarik Suraksha Sanhita, 2023. They exercise specified preventive and public-order powers, including measures to prevent breaches of peace. Executive Magistrates are distinct from Judicial Magistrates.",
+      "mainsquestion": "Examine the role of Executive Magistrates in maintaining public order while ensuring the protection of civil liberties."
+    },
+    {
+      "id": 4,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "Digital Personal Data Protection Act and freedom of the press",
+      "summary": "The Digital News Publishers Association challenged provisions of the Digital Personal Data Protection Act, 2023, and its rules. The issue concerns whether data protection requirements could restrict journalistic work and public-interest reporting. The debate involves Article 19(1)(a), freedom of speech and expression, and Article 21, the right to life and personal liberty, including privacy.",
+      "mainsquestion": "How can India balance the right to privacy with freedom of the press in the context of the Digital Personal Data Protection Act?"
+    },
+    {
+      "id": 5,
+      "gs_paper": "GS Paper 2",
+      "priority": "Medium",
+      "topic": "Mental health and counselling infrastructure in higher education",
+      "summary": "The article highlights inadequate counselling infrastructure in several IITs compared with UGC recommendations. Academic pressure, shortage of trained mental-health professionals and lack of accessible counselling remain concerns. Institutions need confidential, accessible and professionally supported mental-health services.",
+      "mainsquestion": "Discuss the importance of mental-health support in higher education institutions and suggest measures to improve student well-being."
+    },
+    {
+      "id": 6,
+      "gs_paper": "GS Paper 2",
+      "priority": "Medium",
+      "topic": "West Asian diplomacy and regional de-escalation",
+      "summary": "Diplomatic engagement among Iran and regional countries highlights efforts to reduce tensions in West Asia. Regional security, conflict prevention, energy security and maritime stability remain important themes for India's foreign policy.",
+      "mainsquestion": "Examine the implications of West Asian regional tensions for India's energy security and foreign policy."
+    },
+    {
+      "id": 7,
+      "gs_paper": "GS Paper 2",
+      "priority": "Medium",
+      "topic": "Brazil's presidential election and Global South cooperation",
+      "summary": "Brazil's presidential election has implications for its domestic and international policies. Brazil is a member of BRICS and the G20, and its diplomatic engagement is important for South-South cooperation, multipolarity and Global South representation.",
+      "mainsquestion": "Discuss the significance of Brazil for India's engagement with BRICS and the Global South."
+    },
+    {
+      "id": 8,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "Defence procurement and indigenisation",
+      "summary": "The Defence Acquisition Council approved defence procurement proposals worth approximately Rs. 2.12 lakh crore. The proposals aim to strengthen defence preparedness, promote domestic defence manufacturing and reduce dependence on foreign imports. Acceptance of Necessity is an initial approval in the defence acquisition process and does not mean a contract has been finalised.",
+      "mainsquestion": "Examine the role of defence indigenisation in strengthening India's strategic autonomy and national security."
+    },
+    {
+      "id": 9,
+      "gs_paper": "GS Paper 3",
+      "priority": "Very High",
+      "topic": "Cybersecurity of nuclear infrastructure",
+      "summary": "Nuclear facilities face cybersecurity risks in addition to physical security threats. Industrial Control Systems and Operational Technology manage industrial and physical processes, and cyberattacks can disrupt critical infrastructure. Air-gapped systems can still face risks through removable media, supply-chain vulnerabilities and connected systems. NCIIPC is responsible for protecting critical information infrastructure.",
+      "mainsquestion": "Critical infrastructure security can no longer rely on physical protection alone. Discuss the cybersecurity challenges facing India's nuclear infrastructure."
+    },
+    {
+      "id": 10,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "Double Fortified Salt and anaemia reduction",
+      "summary": "Double Fortified Salt contains both iodine and iron and can help address iron-deficiency anaemia. It builds on India's existing salt-iodisation infrastructure. Challenges include poor dietary diversity, nutritional deficiencies, awareness and implementation gaps. Anaemia Mukt Bharat aims to reduce anaemia among vulnerable groups.",
+      "mainsquestion": "Discuss the role of food fortification in addressing malnutrition and anaemia in India. What are its limitations?"
+    },
+    {
+      "id": 11,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "E100 fuel and energy security",
+      "summary": "The government amended the Central Motor Vehicles Rules to permit E100 fuel in compatible flex-fuel vehicles. E100 refers to fuel comprising 100% ethanol. It can reduce crude oil import dependence and support domestic biofuel industries, but challenges include vehicle compatibility, feedstock availability, water requirements and food-versus-fuel concerns.",
+      "mainsquestion": "Examine the potential of ethanol-based fuels in enhancing India's energy security. Discuss the associated environmental and economic challenges."
+    },
+    {
+      "id": 12,
+      "gs_paper": "GS Paper 3",
+      "priority": "Medium",
+      "topic": "Traditional rice varieties and agricultural biodiversity",
+      "summary": "Traditional rice varieties of Kashmir provide clues about crop evolution and genetic links with East Asian rice varieties. Indigenous crop varieties contribute to genetic diversity, climate resilience, pest resistance and conservation of traditional agricultural knowledge.",
+      "mainsquestion": "Explain the importance of conserving traditional crop varieties for agricultural biodiversity and food security."
+    },
+    {
+      "id": 13,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "Climate justice and energy transition",
+      "summary": "Climate policy must consider not only emission-reduction targets but also fairness in the energy transition. Important issues include equitable access to clean energy, climate finance, energy affordability and a just transition for workers and vulnerable communities.",
+      "mainsquestion": "Discuss the importance of climate justice and a just energy transition in achieving sustainable development."
+    },
+    {
+      "id": 14,
+      "gs_paper": "GS Paper 3",
+      "priority": "Medium",
+      "topic": "Military leadership and civil-military relations",
+      "summary": "The article raises concerns about military leadership and institutional professionalism. Key themes include political neutrality of the armed forces, civilian control over the military, professional leadership and institutional credibility.",
+      "mainsquestion": "Examine the significance of professional military leadership and civilian control in India's democratic framework."
+    },
+    {
+      "id": 15,
+      "gs_paper": "GS Paper 1 and GS Paper 3",
+      "priority": "High",
+      "topic": "Cyclone preparedness and disaster management",
+      "summary": "The newspaper reported preparations by Andhra Pradesh and Odisha as a cyclone approached the eastern coast. Important concepts include cyclone formation over warm ocean waters, IMD warnings, evacuation, coastal disaster preparedness and the roles of NDRF and State Disaster Response Forces.",
+      "mainsquestion": "Discuss the importance of early-warning systems and community preparedness in reducing the impact of tropical cyclones in India."
+    },
+    {
+      "id": 16,
+      "gs_paper": "GS Paper 1",
+      "priority": "Medium",
+      "topic": "Para-athletes and inclusive development",
+      "summary": "India's performance in the Para Games highlights the growing contribution of para-athletes to international sporting achievements. Important issues include accessible infrastructure, sports funding, training opportunities and the empowerment of persons with disabilities.",
+      "mainsquestion": "How can sports promote social inclusion and empowerment of persons with disabilities in India?"
+    },
+    {
+      "id": 17,
+      "gs_paper": "GS Paper 1 and GS Paper 3",
+      "priority": "Medium",
+      "topic": "Traditional rice varieties and agricultural heritage",
+      "summary": "Traditional crop varieties provide insights into human migration, agricultural development and biodiversity. Conservation of indigenous varieties can preserve genetic diversity, improve climate resilience and protect traditional agricultural knowledge.",
+      "mainsquestion": "Discuss the role of traditional crop varieties in preserving agricultural biodiversity and ensuring sustainable food security."
+    }
+  ]
+}

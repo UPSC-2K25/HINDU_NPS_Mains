@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPSC CSE Current Affairs Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h1>UPSC CSE Current Affairs</h1>
+            </div>
+            <div class="header-actions">
+                <button id="import-btn" class="btn btn-secondary"><i class="fa-solid fa-file-arrow-up"></i> Import JSON</button>
+                <button id="theme-toggle" class="btn btn-icon"><i class="fa-solid fa-moon"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main-layout">
+        <!-- Sidebar Controls & Filters -->
+        <aside class="sidebar">
+            <div class="card filter-card">
+                <h3><i class="fa-solid fa-filter"></i> Filters</h3>
+                
+                <div class="filter-group">
+                    <label for="search-input">Search Topics</label>
+                    <div class="search-box">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="search-input" placeholder="Search keywords...">
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label for="month-select">Select Month</label>
+                    <select id="month-select">
+                        <option value="2026-10">October 2026</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="gs-select">GS Paper</label>
+                    <select id="gs-select">
+                        <option value="all">All GS Papers</option>
+                        <option value="GS Paper 1">GS Paper 1</option>
+                        <option value="GS Paper 2">GS Paper 2</option>
+                        <option value="GS Paper 3">GS Paper 3</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="priority-select">Priority Level</label>
+                    <select id="priority-select">
+                        <option value="all">All Priorities</option>
+                        <option value="High">High Priority</option>
+                        <option value="Medium">Medium Priority</option>
+                    </select>
+                </div>
+
+                <button id="reset-filters" class="btn btn-outline btn-full">Reset Filters</button>
+            </div>
+
+            <div class="card stats-card">
+                <h3><i class="fa-solid fa-chart-pie"></i> Quick Stats</h3>
+                <div class="stat-item">
+                    <span>Total Loaded Articles</span>
+                    <strong id="stat-total">0</strong>
+                </div>
+                <div class="stat-item">
+                    <span>High Priority</span>
+                    <strong id="stat-high">0</strong>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <section class="content-area">
+            <div class="view-switcher">
+                <button class="tab-btn active" data-view="articles"><i class="fa-solid fa-newspaper"></i> Articles View</button>
+                <button class="tab-btn" data-view="mains"><i class="fa-solid fa-pen-nib"></i> Mains Practice Questions</button>
+            </div>
+
+            <div id="articles-container" class="feed-container">
+                <!-- Dynamic Article Cards Injected Here -->
+            </div>
+
+            <div id="mains-container" class="feed-container hidden">
+                <!-- Dynamic Mains Practice Questions Injected Here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Import Modal -->
+    <div id="import-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Import AI Daily JSON Output</h3>
+                <button id="close-modal" class="btn btn-icon"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <p>Paste your AI-generated JSON snippet below to append it to the current view:</p>
+                <textarea id="json-input" placeholder='{ "date": "2026-10-28", "articles": [...] }'></textarea>
+                <div id="import-error" class="error-msg hidden"></div>
+            </div>
+            <div class="modal-footer">
+                <button id="confirm-import" class="btn btn-primary">Add to Feed</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>UPSC CSE Current Affairs Repository &bull; Hosted on GitHub Pages</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
