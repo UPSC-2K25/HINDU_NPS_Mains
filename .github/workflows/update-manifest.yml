@@ -1,0 +1,29 @@
+name: Update Data Manifest
+
+on:
+  push:
+    paths:
+      - 'data/*.json'
+      - '!data/index.json' # Prevent infinite loops
+
+jobs:
+  update-manifest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate Index JSON
+        run: |
+          cd data
+          # Find all json files except index.json, strip path and extension, sort descending (newest first)
+          find . -name "*.json" ! -name "index.json" -exec basename {} .json \; | sort -r | jq -R . | jq -s . > index.json
+          cat index.json
+
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update data/index.json manifest [skip ci]"
+          file_pattern: 'data/index.json'
