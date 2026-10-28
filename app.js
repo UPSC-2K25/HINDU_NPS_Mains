@@ -53,6 +53,7 @@ async function initApp() {
             return;
         }
 
+        // Properly sets a full YYYY-MM-DD date string
         dateInput.value = availableDates[0];
         loadDateData(availableDates[0]);
 
