@@ -140,5 +140,211 @@
       "mainsquestion": "Discuss the role of traditional crop varieties in preserving agricultural biodiversity and ensuring sustainable food security."
     }
   ]
+},
+{
+  "date": "2026-10-28",
+  "source": "The Hindu",
+  "articles": [
+    {
+      "id": 1,
+      "gs_paper": "GS Paper 2",
+      "priority": "Very High",
+      "topic": "Special Intensive Revision of electoral rolls and judicial oversight",
+      "summary": "The Supreme Court indicated that it would examine issues raised in petitions concerning the Election Commission's Special Intensive Revision of electoral rolls. The issues include preservation of records, transparency in revision procedures, voter-list errors and alleged irregularities in Form 6. The case raises concerns about electoral integrity, procedural fairness and the constitutional right to vote.",
+      "mainsquestion": "Examine the role of judicial oversight in ensuring transparency and fairness in the revision of electoral rolls in India."
+    },
+    {
+      "id": 2,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "Electoral-roll deletions and voter disenfranchisement",
+      "summary": "The newspaper reported that over 99 lakh names were deleted from Karnataka's electoral rolls. Electoral-roll revision is necessary to remove duplicate and ineligible entries, but wrongful deletion can deprive eligible citizens of their right to vote. The issue highlights the importance of accurate voter databases, accessible correction mechanisms and transparent procedures.",
+      "mainsquestion": "How can India balance electoral-roll accuracy with the need to prevent wrongful disenfranchisement of eligible voters?"
+    },
+    {
+      "id": 3,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "Election Commission accountability and public communication",
+      "summary": "The office of the Uttar Pradesh Chief Electoral Officer apologised for the tone and tenor of social media posts responding to voter-list errors. The incident highlights the importance of institutional accountability, responsible communication and public trust in constitutional bodies.",
+      "mainsquestion": "Discuss the importance of institutional accountability and responsible public communication in strengthening trust in constitutional bodies."
+    },
+    {
+      "id": 4,
+      "gs_paper": "GS Paper 3",
+      "priority": "Very High",
+      "topic": "Cyclone Arnab and coastal disaster management",
+      "summary": "Cyclone Arnab approached the Andhra Pradesh coast, bringing heavy rainfall and strong winds. The situation highlighted the importance of early-warning systems, evacuation, relief camps, coastal infrastructure resilience and coordination among disaster-management agencies. Cyclone impacts include storm surges, flooding, infrastructure damage and disruption of livelihoods.",
+      "mainsquestion": "Evaluate India's preparedness for tropical cyclones. How can coastal disaster-management systems be strengthened to minimise loss of life and property?"
+    },
+    {
+      "id": 5,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "Siang hydropower project and environmental concerns",
+      "summary": "The Arunachal Pradesh government held discussions with people affected by the proposed Siang project amid concerns over dam construction. The project raises issues relating to hydropower development, displacement, environmental impact assessment, river ecology, seismic vulnerability and strategic considerations in the border region.",
+      "mainsquestion": "Discuss the environmental, social and strategic challenges associated with large hydropower projects in India's Himalayan region."
+    },
+    {
+      "id": 6,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "India's next investment cycle and its carbon future",
+      "summary": "The editorial highlights that India's future emissions will depend on the infrastructure and technologies adopted during its next investment cycle. Decisions relating to power generation, transport, industry and urban development can lock the economy into either high-carbon or low-carbon pathways. Green investment and cleaner technologies can support sustainable economic growth.",
+      "mainsquestion": "India's next investment cycle will determine its long-term carbon trajectory. Discuss the importance of aligning economic growth with climate objectives."
+    },
+    {
+      "id": 7,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "India-Russia relations and strategic balancing",
+      "summary": "The editorial examines India's diplomatic balancing act and its implications for relations with Russia. India's foreign policy must manage its historical strategic partnership with Russia while strengthening ties with Western countries and pursuing national interests in a changing geopolitical environment.",
+      "mainsquestion": "Examine the challenges facing India's strategic autonomy in the context of its relations with Russia and Western powers."
+    },
+    {
+      "id": 8,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "Semiconductor manufacturing and domestic value-chain development",
+      "summary": "Industry representatives highlighted the need for India to develop capabilities across the semiconductor value chain rather than focusing only on chip design. Outsourced Semiconductor Assembly and Testing projects can support the domestic semiconductor ecosystem. The issue is relevant to technological self-reliance, industrial policy and strategic security.",
+      "mainsquestion": "Why must India develop capabilities across the semiconductor value chain? Discuss the challenges and opportunities for domestic semiconductor manufacturing."
+    },
+    {
+      "id": 9,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "Genetically modified crops and agricultural innovation",
+      "summary": "A Nobel laureate supported greater crop-biotechnology innovation in Indian laboratories. Genetic modification can potentially improve crop productivity, pest resistance and climate resilience. However, its adoption raises concerns relating to biosafety, biodiversity, regulation, farmer interests and public acceptance.",
+      "mainsquestion": "Evaluate the potential of genetically modified crops in addressing India's agricultural challenges. Discuss the associated biosafety and regulatory concerns."
+    },
+    {
+      "id": 10,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "Data privacy law and freedom of the press",
+      "summary": "The Supreme Court issued notice to the Centre on a petition by news publishers challenging provisions of the Digital Personal Data Protection framework. The issue concerns the possible impact of data-protection requirements on journalism, public-interest reporting and protection of confidential sources. It involves balancing privacy with freedom of speech and expression.",
+      "mainsquestion": "How can India balance the right to privacy with freedom of the press in implementing its data-protection framework?"
+    },
+    {
+      "id": 11,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "Medicine prices and the right to health",
+      "summary": "The Supreme Court observed that economic policy cannot outweigh citizens' lives in the context of medicine prices. The issue highlights the relationship between affordability of essential medicines, public health, pharmaceutical regulation and the constitutional right to life. It also raises questions about the role of price controls and access to healthcare.",
+      "mainsquestion": "Examine the role of government regulation in ensuring affordable access to essential medicines while maintaining a sustainable pharmaceutical industry."
+    },
+    {
+      "id": 12,
+      "gs_paper": "GS Paper 2",
+      "priority": "Medium",
+      "topic": "Supreme Court Collegium and appointment of High Court Chief Justices",
+      "summary": "The Supreme Court Collegium recommended four judges for appointment as Chief Justices of High Courts. The development brings attention to the judicial appointment process, the collegium system, judicial independence and the need for transparency and accountability in higher judicial appointments.",
+      "mainsquestion": "Critically examine the collegium system of judicial appointments in India. What reforms could improve transparency and accountability?"
+    },
+    {
+      "id": 13,
+      "gs_paper": "GS Paper 2",
+      "priority": "Medium",
+      "topic": "India-Pakistan engagement through the SCO",
+      "summary": "India invited a Pakistani minister to participate in an SCO-related civilisational dialogue. The development highlights the role of multilateral platforms in maintaining diplomatic engagement despite bilateral tensions. The SCO provides a forum for regional cooperation on security, connectivity and cultural interaction.",
+      "mainsquestion": "Discuss the significance and limitations of multilateral forums such as the Shanghai Cooperation Organisation in facilitating regional diplomacy."
+    },
+    {
+      "id": 14,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "Investment Infrastructure Trusts and household savings",
+      "summary": "Infrastructure Investment Trusts are seeking a larger share of India's household savings. InvITs pool investor funds to finance or own infrastructure assets and can provide an avenue for investment in infrastructure. Their expansion raises issues relating to regulation, risk, investor protection and infrastructure financing.",
+      "mainsquestion": "Explain the role of Infrastructure Investment Trusts in mobilising domestic savings for infrastructure development in India."
+    },
+    {
+      "id": 15,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "Rising bad loans and banking-sector stability",
+      "summary": "The newspaper reported concerns that fresh bad loans may rise in FY2027 and that private banks could face pressure. Non-performing assets affect bank profitability, lending capacity and financial stability. Economic uncertainty, credit quality and risk-management practices are important factors in assessing the banking sector.",
+      "mainsquestion": "Discuss the causes of rising non-performing assets in the banking sector and suggest measures to strengthen financial stability."
+    },
+    {
+      "id": 16,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "River pollution and environmental governance",
+      "summary": "The editorial on polluted rivers in Rajasthan highlights the consequences of industrial effluents and inadequate pollution control. River pollution affects ecosystems, public health, agriculture and water availability. Effective monitoring, enforcement, treatment infrastructure and accountability are essential for river conservation.",
+      "mainsquestion": "Industrial pollution of rivers reflects gaps in environmental governance. Discuss the challenges and suggest measures for effective river pollution control."
+    },
+    {
+      "id": 17,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "Glaciers ending in lakes and global ice loss",
+      "summary": "Scientific research highlights the contribution of lake-terminating glaciers to global ice loss. Glaciers that terminate in lakes can experience additional ice loss due to interactions between ice, water and calving. The issue is relevant to climate change, glacial dynamics, sea-level rise and mountain-region vulnerability.",
+      "mainsquestion": "Explain how climate change is affecting glaciers and discuss the implications of glacial retreat for water security and mountain ecosystems."
+    },
+    {
+      "id": 18,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "Operation Trident and narcotics trafficking",
+      "summary": "The editorial highlights the challenge of targeting major narcotics networks rather than only apprehending small carriers. Drug trafficking involves organised crime, cross-border networks, illicit finance and possible links to national security. Effective action requires intelligence-led investigations, financial tracking and international cooperation.",
+      "mainsquestion": "Examine the links between organised crime and narcotics trafficking in India. Suggest measures to strengthen the country's anti-drug enforcement framework."
+    },
+    {
+      "id": 19,
+      "gs_paper": "GS Paper 3",
+      "priority": "Medium",
+      "topic": "KIIFB and the future of infrastructure financing",
+      "summary": "The article examines the future of the Kerala Infrastructure Investment Fund Board and concerns surrounding off-budget borrowing. Infrastructure financing mechanisms can help mobilise resources for public investment, but they also raise questions about fiscal transparency, debt sustainability and the treatment of contingent liabilities.",
+      "mainsquestion": "Discuss the opportunities and fiscal risks associated with off-budget borrowing and alternative infrastructure-financing mechanisms in India."
+    },
+    {
+      "id": 20,
+      "gs_paper": "GS Paper 2",
+      "priority": "Medium",
+      "topic": "Ageing population and the silver economy",
+      "summary": "The article highlights the need for Kerala to move beyond welfare-oriented approaches to its ageing population and develop a silver economy. This includes healthcare, elderly-friendly housing, financial security, assistive technology, care services and opportunities for senior citizens to remain economically and socially active.",
+      "mainsquestion": "Discuss the challenges posed by India's ageing population and examine how the silver economy can support inclusive development."
+    },
+    {
+      "id": 21,
+      "gs_paper": "GS Paper 2",
+      "priority": "Medium",
+      "topic": "Coronary stents and evidence-based healthcare",
+      "summary": "The article examines the necessity of coronary stents in medical treatment. It highlights the importance of evidence-based clinical decisions, patient consent, medical ethics and avoiding unnecessary procedures. The issue also relates to healthcare affordability and the regulation of medical devices.",
+      "mainsquestion": "Examine the importance of evidence-based medicine, informed consent and regulation in ensuring ethical and affordable healthcare."
+    },
+    {
+      "id": 22,
+      "gs_paper": "GS Paper 3",
+      "priority": "Medium",
+      "topic": "DNA testing, personality and scientific literacy",
+      "summary": "A science article highlights that DNA reveals less about personality than simplistic online quizzes may suggest. Personality is influenced by complex interactions between genes, environment, upbringing and social experiences. The article is relevant to genetics, behavioural science and responsible interpretation of scientific information.",
+      "mainsquestion": "Discuss the limitations of genetic determinism in explaining human behaviour and personality."
+    },
+    {
+      "id": 23,
+      "gs_paper": "GS Paper 3",
+      "priority": "Medium",
+      "topic": "Food colours and food safety regulation",
+      "summary": "The article discusses the use of food colours and regulatory action concerning coloured food products. It highlights the importance of food-safety standards, consumer awareness, testing and enforcement. Food additives must be assessed for safety and used within permitted limits.",
+      "mainsquestion": "Examine the role of food-safety regulation in protecting public health. What challenges affect enforcement in India's food sector?"
+    },
+    {
+      "id": 24,
+      "gs_paper": "GS Paper 2",
+      "priority": "Medium",
+      "topic": "India's relations with the Maldives and neighbourhood diplomacy",
+      "summary": "The article examines the Maldives' diversification of foreign policy and the need for India to clearly communicate its strategic concerns. India-Maldives relations involve maritime security, development assistance, tourism, regional stability and Indian Ocean geopolitics.",
+      "mainsquestion": "Discuss the challenges and opportunities in India's neighbourhood policy with reference to its relations with the Maldives."
+    },
+    {
+      "id": 25,
+      "gs_paper": "GS Paper 3",
+      "priority": "Medium",
+      "topic": "Air pollution and accountability",
+      "summary": "The editorial argues that clean-air policies require clear targets, timelines and accountability. Air pollution is caused by multiple sources, including transport, industry, construction, power generation and biomass burning. Effective management requires coordinated action across sectors and jurisdictions, reliable monitoring and public-health interventions.",
+      "mainsquestion": "Why have air-pollution control measures struggled to achieve sustained improvements in Indian cities? Suggest an accountable and coordinated policy framework."
+    }
+  ]
 }
 ]
