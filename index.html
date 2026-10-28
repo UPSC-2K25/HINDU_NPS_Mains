@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="app-container">
-        <!-- Inline Top Bar matching content width -->
+        <!-- Fully Inline Top Bar containing Title, Views, Date, Search, and GS Tabs -->
         <header class="top-bar">
             <h3 class="app-title">Current Affairs</h3>
             
@@ -20,15 +20,12 @@
 
             <input type="date" id="date-input" title="Select Date">
 
-            <div class="search-box">
-                <input type="text" id="search-input" placeholder="Search keywords...">
+            <input type="text" id="search-input" placeholder="Search keywords..." class="search-box">
+
+            <div id="gs-tabs-container" class="gs-tabs">
+                <button class="gs-tab active" data-gs="all">All</button>
             </div>
         </header>
-
-        <!-- GS Paper Quick Tabs -->
-        <div id="gs-tabs-container" class="gs-tabs">
-            <button class="gs-tab active" data-gs="all">All</button>
-        </div>
 
         <!-- Content Area -->
         <section class="content-area">
