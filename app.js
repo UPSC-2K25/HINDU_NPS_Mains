@@ -1,12 +1,9 @@
-// State management
 let rawDailyArticles = [];
 let availableDates = [];
 let selectedGsPaper = 'all';
 
-// DOM References
 const searchInput = document.getElementById('search-input');
 const dateInput = document.getElementById('date-input');
-const statTotal = document.getElementById('stat-total');
 const gsTabsContainer = document.getElementById('gs-tabs-container');
 
 const articlesContainer = document.getElementById('articles-container');
@@ -44,7 +41,6 @@ function setupEventListeners() {
     });
 }
 
-// 1. Fetch available dates manifest (data/index.json)
 async function initApp() {
     try {
         const response = await fetch('./data/index.json');
@@ -57,7 +53,6 @@ async function initApp() {
             return;
         }
 
-        // Set datepicker to the most recent date available
         dateInput.value = availableDates[0];
         loadDateData(availableDates[0]);
 
@@ -66,7 +61,6 @@ async function initApp() {
     }
 }
 
-// 2. Load JSON data strictly for the chosen date
 async function loadDateData(dateStr) {
     articlesContainer.innerHTML = `<div class="card loading-text">Loading articles for ${dateStr}...</div>`;
     try {
@@ -74,7 +68,6 @@ async function loadDateData(dateStr) {
         if (!response.ok) throw new Error(`data/${dateStr}.json not found`);
         
         const payload = await response.json();
-        
         rawDailyArticles = payload.articles ? payload.articles : (Array.isArray(payload) ? payload : []);
         
         buildGsTabs(rawDailyArticles);
@@ -83,11 +76,9 @@ async function loadDateData(dateStr) {
         rawDailyArticles = [];
         articlesContainer.innerHTML = `<div class="card loading-text">No file found for date <code>data/${dateStr}.json</code>.</div>`;
         mainsContainer.innerHTML = articlesContainer.innerHTML;
-        statTotal.textContent = '0';
     }
 }
 
-// 3. Dynamically build GS Paper Pill Tabs based on current day's articles
 function buildGsTabs(articles) {
     const gsSet = new Set();
     articles.forEach(art => {
@@ -105,7 +96,6 @@ function buildGsTabs(articles) {
         }).join('')}
     `;
 
-    // Add Tab Click Listener
     document.querySelectorAll('.gs-tab').forEach(tab => {
         tab.addEventListener('click', () => {
             document.querySelectorAll('.gs-tab').forEach(t => t.classList.remove('active'));
@@ -116,20 +106,14 @@ function buildGsTabs(articles) {
     });
 }
 
-// 4. Filter currently loaded date's articles
 function filterData() {
     const query = searchInput.value.toLowerCase();
-
-    const filtered = rawDailyArticles.filter(article => {
+    return rawDailyArticles.filter(article => {
         const matchesQuery = article.topic.toLowerCase().includes(query) || 
                              article.summary.toLowerCase().includes(query);
         const matchesGs = selectedGsPaper === 'all' || article.gs_paper === selectedGsPaper;
-
         return matchesQuery && matchesGs;
     });
-
-    statTotal.textContent = filtered.length;
-    return filtered;
 }
 
 function renderViews() {
