@@ -101,30 +101,6 @@ body {
     font-size: 0.75rem;
 }
 
-.gs-tabs {
-    display: flex;
-    gap: 0.2rem;
-    overflow-x: auto;
-    white-space: nowrap;
-}
-
-.gs-tab {
-    padding: 0.25rem 0.5rem;
-    font-size: 0.7rem;
-    font-weight: 600;
-    border-radius: 9999px;
-    border: 1px solid var(--border-color);
-    background-color: var(--card-bg);
-    color: var(--text-secondary);
-    cursor: pointer;
-}
-
-.gs-tab.active {
-    background-color: var(--primary);
-    color: #ffffff;
-    border-color: var(--primary);
-}
-
 /* Content Area */
 .feed-container {
     display: flex;
