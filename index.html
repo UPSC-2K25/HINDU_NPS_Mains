@@ -8,29 +8,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <main class="main-layout">
-        <!-- Single Inline Control Bar -->
-        <header class="inline-header">
+    <div class="app-container">
+        <!-- Inline Top Bar matching content width -->
+        <header class="top-bar">
+            <h3 class="app-title">Current Affairs</h3>
+            
             <div class="view-switcher">
-                <button class="tab-btn active" data-view="articles" title="Articles View"><i class="fa-solid fa-newspaper"></i></button>
-                <button class="tab-btn" data-view="mains" title="Mains Questions"><i class="fa-solid fa-pen-nib"></i></button>
+                <button class="tab-btn active" data-view="articles"><i class="fa-solid fa-newspaper"></i> Articles</button>
+                <button class="tab-btn" data-view="mains"><i class="fa-solid fa-pen-nib"></i> Mains</button>
             </div>
 
-            <div class="inline-filters">
-                <input type="date" id="date-input" title="Select Date">
+            <input type="date" id="date-input" title="Select Date">
+
+            <div class="search-box">
                 <input type="text" id="search-input" placeholder="Search keywords...">
-            </div>
-
-            <div id="gs-tabs-container" class="gs-tabs">
-                <button class="gs-tab active" data-gs="all">All</button>
-            </div>
-
-            <div class="stat-badge">
-                <strong id="stat-total">0</strong> articles
             </div>
         </header>
 
-        <!-- Full-Width Content Area -->
+        <!-- GS Paper Quick Tabs -->
+        <div id="gs-tabs-container" class="gs-tabs">
+            <button class="gs-tab active" data-gs="all">All</button>
+        </div>
+
+        <!-- Content Area -->
         <section class="content-area">
             <div id="articles-container" class="feed-container">
                 <div class="card loading-text">Select a date to load articles...</div>
@@ -38,7 +38,7 @@
 
             <div id="mains-container" class="feed-container hidden"></div>
         </section>
-    </main>
+    </div>
 
     <script src="app.js"></script>
 </body>
