@@ -3,69 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Current Affairs Blog</title>
+    <title>Daily Current Affairs</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <main class="main-layout">
-        <!-- Sidebar Controls & Dynamic Filters -->
-        <aside class="sidebar">
-            <div class="card filter-card">
-                <div class="filter-group">
-                    <label for="search-input">Search Keywords</label>
-                    <div class="search-box">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <input type="text" id="search-input" placeholder="Search topics or summary...">
-                    </div>
-                </div>
-
-                <div class="filter-group">
-                    <label for="month-select">Select Month</label>
-                    <select id="month-select">
-                        <option value="">Loading months...</option>
-                    </select>
-                </div>
-
-                <div class="filter-group">
-                    <label for="date-input">Filter by Specific Date</label>
-                    <input type="date" id="date-input">
-                </div>
-
-                <div class="filter-group">
-                    <label for="gs-select">GS Paper</label>
-                    <select id="gs-select">
-                        <option value="all">All GS Papers</option>
-                    </select>
-                </div>
-
-                <div class="filter-group">
-                    <label for="priority-select">Priority Level</label>
-                    <select id="priority-select">
-                        <option value="all">All Priorities</option>
-                    </select>
-                </div>
-
-                <button id="reset-filters" class="btn btn-outline btn-full">Reset All Filters</button>
+        <!-- Top Control Bar (Full Width) -->
+        <header class="top-control-bar">
+            <div class="control-group">
+                <label for="date-input"><i class="fa-regular fa-calendar"></i> Date</label>
+                <input type="date" id="date-input">
             </div>
 
-            <div class="card stats-card">
-                <div class="stat-item">
-                    <span>Articles Shown</span>
-                    <strong id="stat-total">0</strong>
+            <div class="control-group search-group">
+                <label for="search-input"><i class="fa-solid fa-magnifying-glass"></i> Search</label>
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Search keywords...">
                 </div>
             </div>
-        </aside>
 
-        <!-- Main Content Area -->
-        <section class="content-area">
+            <div class="control-group stats-group">
+                <span>Loaded</span>
+                <strong id="stat-total">0</strong>
+            </div>
+        </header>
+
+        <!-- Navigation & GS Paper Pill Bar -->
+        <div class="navigation-bar">
             <div class="view-switcher">
                 <button class="tab-btn active" data-view="articles"><i class="fa-solid fa-newspaper"></i> Articles View</button>
-                <button class="tab-btn" data-view="mains"><i class="fa-solid fa-pen-nib"></i> Mains Practice Questions</button>
+                <button class="tab-btn" data-view="mains"><i class="fa-solid fa-pen-nib"></i> Mains Questions</button>
             </div>
 
+            <div id="gs-tabs-container" class="gs-tabs">
+                <button class="gs-tab active" data-gs="all">All GS Papers</button>
+            </div>
+        </div>
+
+        <!-- Full-Width Content Area -->
+        <section class="content-area">
             <div id="articles-container" class="feed-container">
-                <div class="card loading-text">Loading current affairs data...</div>
+                <div class="card loading-text">Select a date to load articles...</div>
             </div>
 
             <div id="mains-container" class="feed-container hidden"></div>
