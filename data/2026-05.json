@@ -1,0 +1,334 @@
+[
+  
+{
+  "date": "2026-05-25",
+  "articles": [
+    {
+      "id": 1,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "U.S. and India call for ‘unimpeded’ sea trade",
+      "summary": "India and the United States emphasised the importance of uninterrupted maritime trade amid geopolitical tensions and disruptions to major shipping routes. Safe sea lanes are essential for energy supplies, international commerce and economic stability. For India, protecting maritime interests requires stronger naval capabilities, cooperation with partners and adherence to international maritime law while retaining strategic autonomy.",
+      "mainsquestion": "Examine the importance of secure and unimpeded maritime trade for India's economic and strategic interests. How can India strengthen maritime cooperation while preserving strategic autonomy?"
+    },
+    {
+      "id": 2,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "Quad grouping remains a ‘vital framework’, says Japan’s Foreign Minister",
+      "summary": "Japan reaffirmed the relevance of the Quadrilateral Security Dialogue comprising India, Japan, the United States and Australia. The Quad promotes a free, open and inclusive Indo-Pacific through cooperation in maritime security, critical technologies, infrastructure, health and disaster resilience. Differences among members and concerns about regional polarisation require the grouping to remain practical, inclusive and focused on shared interests.",
+      "mainsquestion": "Evaluate the strategic significance of the Quad for India and the Indo-Pacific region. What challenges must the grouping address to remain effective?"
+    },
+    {
+      "id": 3,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "UCC will never be applied to tribal people, says Amit Shah",
+      "summary": "The debate over a Uniform Civil Code (UCC) raises questions about equality before law, religious freedom, cultural diversity and tribal autonomy. Article 44 directs the State to endeavour to secure a uniform civil code, while constitutional protections and customary practices safeguard the distinct identities of tribal communities. Any reform must reconcile gender justice and legal equality with constitutionally protected customs and meaningful consultation.",
+      "mainsquestion": "Discuss the constitutional and social challenges in implementing a Uniform Civil Code in India. How can legal uniformity be reconciled with the protection of tribal customs and cultural diversity?"
+    },
+    {
+      "id": 4,
+      "gs_paper": "GS Paper 3",
+      "priority": "Medium",
+      "topic": "Assam women turn water hyacinth into means of livelihood",
+      "summary": "The conversion of invasive water hyacinth into usable products can create livelihood opportunities, particularly for women involved in local self-help groups and community enterprises. Water hyacinth can obstruct waterways, reduce oxygen levels and harm aquatic ecosystems. Its utilisation for handicrafts and other products can support circular-economy approaches, provided harvesting is ecologically sound and market access, training and fair remuneration are ensured.",
+      "mainsquestion": "How can the management of invasive aquatic species be integrated with livelihood generation and women's empowerment? Illustrate with the potential of water hyacinth-based enterprises."
+    },
+    {
+      "id": 5,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "The U.S. ends Russia oil waiver, implications for India",
+      "summary": "The ending of a U.S. waiver relating to Russian oil purchases has implications for India's energy security, import costs and foreign-policy choices. India relies substantially on imported crude and has sought to balance affordable energy supplies with its international relationships. Sanctions and changes in global oil flows can affect freight, insurance, prices and payment arrangements, strengthening the case for diversified suppliers and greater domestic energy resilience.",
+      "mainsquestion": "Analyse how sanctions on Russian oil can affect India's energy security and strategic autonomy. Suggest measures to reduce India's vulnerability to external energy shocks."
+    },
+    {
+      "id": 6,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "India’s green transition still runs on coal",
+      "summary": "India's energy transition faces the challenge of expanding renewable energy while continuing to depend on coal for reliable electricity and industrial activity. Rising energy demand, storage limitations, grid constraints and affordability concerns complicate rapid decarbonisation. A just transition requires investment in renewable generation, storage, transmission, energy efficiency and cleaner industrial technologies, alongside support for workers and regions dependent on coal.",
+      "mainsquestion": "India's energy transition requires balancing energy security, affordability and climate commitments. Critically examine this statement and suggest a roadmap for reducing coal dependence."
+    },
+    {
+      "id": 7,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "Google’s new ‘information agents’ are a privacy and web infrastructure problem",
+      "summary": "AI-powered information agents can retrieve, synthesise and act on online information, potentially changing how people access digital services and websites. Their use raises concerns about personal-data protection, consent, automated scraping, attribution and the economic sustainability of web publishers. Governance should address transparency, data minimisation, accountability and fair access while allowing responsible AI innovation.",
+      "mainsquestion": "Examine the privacy, accountability and economic challenges posed by AI-powered information agents. What principles should guide India's regulation of such systems?"
+    },
+    {
+      "id": 8,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "SC’s revival of Section 124A triggers concerns over a colonial law the country did not want",
+      "summary": "Section 124A of the Indian Penal Code historically criminalised sedition and has been criticised for its colonial origins and potential to restrict legitimate dissent. Its use raises concerns about freedom of speech under Article 19(1)(a), the reasonable restrictions permitted by Article 19(2), and the distinction between criticism of government and incitement to violence. The issue highlights the need for precise criminal laws, safeguards against misuse and constitutional scrutiny.",
+      "mainsquestion": "Critically examine the tension between national security and freedom of expression in laws dealing with sedition. What safeguards are necessary to prevent the criminalisation of legitimate dissent?"
+    },
+    {
+      "id": 9,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "Development and tribal protection can coexist in Great Nicobar: Oram",
+      "summary": "Development proposals in Great Nicobar raise questions about strategic infrastructure, economic growth, biodiversity conservation and the rights of Indigenous communities. Island ecosystems are particularly vulnerable to habitat fragmentation, coastal changes and construction-related impacts. Sustainable planning requires rigorous environmental assessment, transparent consultation, protection of tribal rights and careful evaluation of cumulative ecological effects rather than treating development and conservation as mutually exclusive.",
+      "mainsquestion": "Discuss the environmental and constitutional challenges associated with large infrastructure projects in ecologically sensitive tribal regions such as Great Nicobar. How can development be made sustainable and rights-based?"
+    },
+    {
+      "id": 10,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "Centre offering Ladakh unique governance model; demand for Statehood to continue",
+      "summary": "Debate over Ladakh's political future concerns representation, autonomy, land protection, employment and safeguards for local cultural identity. Following the reorganisation of the former State of Jammu and Kashmir in 2019, Ladakh became a Union Territory without a legislature. Demands for stronger constitutional protections and Statehood highlight wider questions of federalism, democratic participation and governance in strategically sensitive border regions.",
+      "mainsquestion": "Examine the constitutional and governance issues underlying demands for greater autonomy and Statehood in Ladakh. How can local aspirations be reconciled with national security and administrative requirements?"
+    },
+    {
+      "id": 11,
+      "gs_paper": "GS Paper 2",
+      "priority": "Medium",
+      "topic": "Russia uses Oreshnik missile in attack on Kyiv",
+      "summary": "The reported use of Russia's Oreshnik missile in an attack involving Kyiv highlights the continued evolution of missile capabilities in the Russia-Ukraine conflict. Advanced and potentially difficult-to-intercept weapons increase escalation risks and place pressure on air-defence systems. The development underscores the importance of arms-control dialogue, strategic stability, civilian protection and diplomatic efforts to reduce the conflict's wider consequences.",
+      "mainsquestion": "Discuss how advances in missile technology are changing contemporary warfare and strategic stability. What role can arms control and diplomacy play in limiting escalation?"
+    },
+    {
+      "id": 12,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "Long-awaited anti-COVID drug is also a milestone against future viruses",
+      "summary": "Research into antiviral drugs can improve treatment options for COVID-19 and strengthen preparedness for future viral outbreaks. Effective antivirals may reduce disease severity when administered appropriately, but their usefulness depends on clinical evidence, timely diagnosis, access and monitoring for resistance. Pandemic preparedness also requires sustained research funding, genomic surveillance, resilient supply chains and equitable access to essential medicines.",
+      "mainsquestion": "Evaluate the role of antiviral drug development in strengthening India's preparedness for future pandemics. What institutional and public-health measures are needed to translate scientific advances into equitable access?"
+    },
+    {
+      "id": 13,
+      "gs_paper": "GS Paper 1",
+      "priority": "Medium",
+      "topic": "Outer core: unafraid of drama",
+      "summary": "Earth's outer core is a liquid layer composed mainly of iron and nickel, located beneath the mantle and surrounding the solid inner core. Convection in this electrically conducting fluid generates Earth's magnetic field through the geodynamo process. Understanding the outer core helps explain geomagnetic changes, Earth's internal structure and the geophysical processes that influence the planet's long-term evolution.",
+      "mainsquestion": "Describe the structure and composition of Earth's core. Explain how movements in the liquid outer core generate Earth's magnetic field and why this field is important."
+    },
+    {
+      "id": 14,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "What is China’s Hainan FTP initiative?",
+      "summary": "China's Hainan Free Trade Port initiative seeks to strengthen the island's role in international trade, investment and services through special customs arrangements and a more open business environment. Such initiatives can attract foreign investment, encourage tourism and logistics, and support regional economic integration. For India, the model provides a point of comparison for improving logistics, regulatory predictability and the competitiveness of its own ports and trade zones.",
+      "mainsquestion": "Explain the objectives of China's Hainan Free Trade Port initiative. What lessons can India draw from international free-trade-zone models to improve exports and attract investment?"
+    },
+    {
+      "id": 15,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "Coerced consent",
+      "summary": "The debate over sedition and state power raises the question of whether consent or compliance obtained under coercive circumstances can be treated as legitimate. In constitutional democracies, restrictions on liberty must rest on clear law and satisfy standards of necessity and proportionality. The broader principle is that state authority must remain accountable and cannot substitute coercion for lawful process or genuine democratic consent.",
+      "mainsquestion": "How should constitutional democracy distinguish legitimate state authority from coercion? Discuss the role of fundamental rights, due process and judicial review in maintaining this distinction."
+    },
+    {
+      "id": 16,
+      "gs_paper": "GS Paper 2",
+      "priority": "Medium",
+      "topic": "Now, only two young States haven’t had a coalition govt.",
+      "summary": "The expansion of coalition governments among India's newer States reflects the role of regional parties, electoral fragmentation and negotiated political mandates. Coalition arrangements can broaden representation and encourage consensus, but may also create challenges for policy continuity and accountability. Their performance depends on coalition agreements, coordination mechanisms, legislative stability and respect for constitutional conventions.",
+      "mainsquestion": "Assess the implications of coalition politics for federalism, representation and governance in India. What factors determine the stability and effectiveness of coalition governments?"
+    },
+    {
+      "id": 17,
+      "gs_paper": "GS Paper 2",
+      "priority": "Medium",
+      "topic": "Busting two myths around Bengal polls",
+      "summary": "Electoral analysis requires distinguishing political narratives from evidence about voter behaviour, participation and electoral outcomes. Claims about election results should be assessed using reliable data, constituency-level trends and the institutional framework governing elections. The broader democratic challenge is to ensure informed public debate, transparent election administration and confidence in electoral institutions without treating political interpretations as established facts.",
+      "mainsquestion": "Discuss the importance of credible electoral data and institutional transparency in sustaining public confidence in India's democratic process."
+    },
+    {
+      "id": 18,
+      "gs_paper": "GS Paper 2",
+      "priority": "Medium",
+      "topic": "Muslim organisations seek consultations with Assam government on UCC Bill",
+      "summary": "Calls for consultation on a proposed Uniform Civil Code in Assam highlight the importance of stakeholder engagement in legal reform. A UCC debate involves personal laws, gender equality, religious freedom, customary practices and constitutional principles. Transparent consultation can help identify discriminatory provisions, protect vulnerable groups and build public confidence, while ensuring that reforms remain consistent with fundamental rights and constitutional protections.",
+      "mainsquestion": "Why is stakeholder consultation important when reforming personal laws? Discuss how a Uniform Civil Code can pursue gender justice while respecting constitutional freedoms and cultural diversity."
+    },
+    {
+      "id": 19,
+      "gs_paper": "GS Paper 3",
+      "priority": "Medium",
+      "topic": "India's blue economy and cold-water fisheries",
+      "summary": "Cold-water fisheries can contribute to livelihoods, food security and diversification of India's fisheries sector, particularly in Himalayan and other high-altitude regions. Sustainable development requires scientific stock assessment, protection of aquatic ecosystems, responsible aquaculture practices and climate-resilient infrastructure. The blue-economy approach seeks to generate economic value from aquatic resources while maintaining ecological health and long-term resource productivity.",
+      "mainsquestion": "Explain the potential of cold-water fisheries in India's blue-economy strategy. What ecological, technological and institutional measures are required to develop the sector sustainably?"
+    }
+  ]
+},
+
+{
+  "date": "2026-05-26",
+  "articles": [
+    {
+      "id": 1,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "Supreme Court blames NTA for leak of 2026 NEET paper",
+      "summary": "The reported NEET question-paper leak raises concerns about examination security, the accountability of the National Testing Agency (NTA) and fairness in competitive examinations. Repeated irregularities can disadvantage honest candidates, undermine public confidence and cause significant financial and emotional distress. Reforms should include secure paper-setting and distribution, independent audits, stronger cyber and physical security, transparent investigations, time-bound grievance redressal and clear institutional responsibility.",
+      "mainsquestion": "Examine the institutional challenges affecting the credibility of India's competitive examinations. Suggest reforms to improve the accountability, security and transparency of examination bodies such as the NTA."
+    },
+    {
+      "id": 2,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "Foreign Ministers of Quad to meet in Delhi",
+      "summary": "The meeting of foreign ministers from India, Australia, Japan and the United States highlights the Quad's role in Indo-Pacific cooperation. Its agenda includes maritime security, resilient supply chains, critical and emerging technologies, infrastructure and regional stability. India must use the grouping to advance practical cooperation while maintaining strategic autonomy and avoiding unnecessary polarisation in the region.",
+      "mainsquestion": "Assess the significance of the Quad for India's Indo-Pacific strategy. How can India strengthen cooperation within the grouping while preserving its strategic autonomy?"
+    },
+    {
+      "id": 3,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "Fuel prices hiked for fourth time in 10 days by Centre",
+      "summary": "Repeated fuel-price increases can raise transport and logistics costs, feed into retail inflation and reduce household purchasing power. Their impact is especially significant for lower-income households and fuel-intensive sectors. Policymakers must balance the financial sustainability of fuel suppliers and public finances with inflation management, targeted relief for vulnerable groups, energy efficiency and diversification of energy sources.",
+      "mainsquestion": "Analyse the transmission of fuel-price increases into inflation and economic activity in India. How can the government balance energy-sector viability with consumer welfare?"
+    },
+    {
+      "id": 4,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "Nagas and Meiteis stage protest for hostages' release",
+      "summary": "Protests involving Naga and Meitei communities reflect the continuing social and security challenges in Manipur. Ethnic conflict can disrupt livelihoods, displace communities, weaken trust in institutions and complicate law enforcement. Sustainable peace requires credible investigations, protection of civilians, dialogue with community representatives, rehabilitation of displaced people and impartial enforcement of law.",
+      "mainsquestion": "Discuss the challenges of restoring peace and social cohesion in Manipur. Suggest a comprehensive approach combining security measures, political dialogue and rehabilitation."
+    },
+    {
+      "id": 5,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "India and Australia — bridging the trade and trust barrier",
+      "summary": "India and Australia have opportunities to deepen trade and strategic cooperation, but commercial barriers and differences in expectations can limit the relationship. Cooperation can expand across education, critical minerals, clean energy, technology, agriculture and resilient supply chains. Greater market access, predictable regulation, business engagement and progress on trade negotiations can convert strategic convergence into stronger economic ties.",
+      "mainsquestion": "Examine the opportunities and obstacles in India-Australia economic relations. How can both countries bridge the gap between strategic trust and actual trade integration?"
+    },
+    {
+      "id": 6,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "India's demographic transition calls for a policy rethink",
+      "summary": "Changing fertility rates, rising life expectancy and regional differences in population growth are reshaping India's demographic profile. While some regions can benefit from a large working-age population, others face ageing, shrinking workforces and increasing demand for care services. Policy needs to move beyond a uniform demographic approach and invest in education, skills, women's employment, healthcare, social security and region-specific planning.",
+      "mainsquestion": "How is India's demographic transition changing its development priorities? Discuss the policy measures needed to realise the demographic dividend while preparing for population ageing."
+    },
+    {
+      "id": 7,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "Finance Commission transfers and equity issue",
+      "summary": "Finance Commission transfers are central to fiscal federalism because they distribute resources between the Union and States and help address differences in fiscal capacity and development needs. The challenge is to balance equity, population-related needs, fiscal discipline and incentives for economic performance. A transparent and predictable transfer system is important for public-service delivery and cooperative federalism.",
+      "mainsquestion": "Examine the role of Finance Commission transfers in promoting fiscal federalism and regional equity in India. How can the transfer system balance need, efficiency and fiscal responsibility?"
+    },
+    {
+      "id": 8,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "Greater public participation and stakeholder talks vital in defining Aravalli hills, says Supreme Court",
+      "summary": "Defining the extent of the Aravalli hills has implications for conservation, mining regulation, land use and urban expansion. The range is ecologically important for biodiversity, groundwater recharge and limiting desertification in parts of north-western India. Scientific criteria, transparent decision-making and participation by affected communities are important to ensure that legal definitions do not weaken environmental protection.",
+      "mainsquestion": "Discuss the ecological significance of the Aravalli range and the governance challenges involved in protecting it. Why are scientific assessment and public participation important in environmental decision-making?"
+    },
+    {
+      "id": 9,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "Water governance in peri-urban areas",
+      "summary": "Peri-urban areas lie at the expanding edges of cities, where rural and urban settlements, land uses and administrative systems overlap. Rapid growth can outpace drinking-water infrastructure, sanitation services and groundwater regulation. Fragmented jurisdiction often leaves residents without clear accountability for essential services. Better metropolitan planning, coordination across local bodies, protection of water sources and stronger local-government capacity are needed to address these gaps.",
+      "mainsquestion": "Why are peri-urban settlements particularly vulnerable to water insecurity? Examine the governance reforms required to improve drinking-water and sanitation services in these areas."
+    },
+    {
+      "id": 10,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "Why is the Indian rupee falling?",
+      "summary": "Exchange-rate movements can reflect changes in capital flows, demand for foreign currency, global interest rates, oil prices and investor confidence. Rupee depreciation can make imports such as crude oil and machinery more expensive, potentially increasing inflation, while improving the price competitiveness of some exports. The Reserve Bank of India must manage excessive volatility while considering foreign-exchange reserves, monetary conditions and external-sector stability.",
+      "mainsquestion": "Explain the major factors influencing rupee depreciation. Analyse its effects on inflation, trade competitiveness and the balance of payments, and discuss the policy options available to the RBI."
+    },
+    {
+      "id": 11,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "Deaths caused by lightning have been consistently rising",
+      "summary": "Lightning is a major weather-related hazard that can cause fatalities, injuries, livestock losses and damage to infrastructure. Exposure is especially high among agricultural workers and people working outdoors. Effective risk reduction requires accurate early-warning systems, public awareness, safer shelters, lightning-protection infrastructure and better reporting of casualties. Climate variability and changing exposure patterns also make sustained monitoring important.",
+      "mainsquestion": "Examine the causes of lightning-related fatalities in India and assess the effectiveness of existing disaster-risk-reduction measures. Suggest steps to strengthen early warning and community preparedness."
+    },
+    {
+      "id": 12,
+      "gs_paper": "GS Paper 1",
+      "priority": "Medium",
+      "topic": "From black to grey: India's ageing population",
+      "summary": "India's demographic transition is increasing the importance of policies for older persons, including healthcare, pensions, accessible housing and long-term care. Ageing can raise dependency pressures, but older people also contribute through work, caregiving and community participation. Policy must address differences in income, gender, health and access to formal social protection, while preparing families and institutions for greater care needs.",
+      "mainsquestion": "Discuss the socioeconomic implications of population ageing in India. What reforms are needed in healthcare, pensions and social protection to ensure dignified ageing?"
+    },
+    {
+      "id": 13,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "Assam UCC Bill tabled; seeks ban on polygamy",
+      "summary": "The proposed Uniform Civil Code legislation in Assam brings questions of personal law, gender justice, religious freedom and customary practices into focus. Supporters of reform emphasise equal rights and protection against discriminatory practices, while concerns arise over consultation, legal complexity and the treatment of distinct communities. Any legislation must be assessed against constitutional guarantees, gender equality, tribal protections and the principles of fair and inclusive lawmaking.",
+      "mainsquestion": "Examine the constitutional and social issues raised by proposals for a Uniform Civil Code at the State level. How can reform promote gender justice while respecting fundamental rights and protected customary practices?"
+    },
+    {
+      "id": 14,
+      "gs_paper": "GS Paper 2",
+      "priority": "High",
+      "topic": "India-U.S. ties and Iran crisis in focus as Quad Foreign Ministers meet",
+      "summary": "Developments in West Asia affect energy security, shipping routes, diaspora safety and the diplomatic priorities of Indo-Pacific partners. India's engagement with the United States and other Quad members must account for these wider consequences while maintaining working relationships across competing regional actors. A balanced approach combines diplomatic de-escalation, protection of commercial sea lanes and diversification of energy supplies.",
+      "mainsquestion": "How can instability in West Asia affect India's strategic and economic interests? Discuss the role of diplomacy and partnerships in protecting India's interests while maintaining strategic autonomy."
+    },
+    {
+      "id": 15,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "Indian mobile market hit as global semiconductor industry faces 'severe memflation'",
+      "summary": "Rising memory-chip costs and constraints in the semiconductor supply chain can increase smartphone manufacturing costs and affect prices, inventories and consumer demand. India's mobile industry remains exposed to global component suppliers even as domestic electronics manufacturing expands. Building resilient supply chains requires investment in semiconductor fabrication and packaging, component ecosystems, research, skilled labour and stable long-term industrial policy.",
+      "mainsquestion": "Examine India's vulnerabilities to global semiconductor supply-chain disruptions. What measures can strengthen domestic electronics manufacturing while improving technological self-reliance?"
+    },
+    {
+      "id": 16,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "Panel to study quantum technology's potential in the financial sector",
+      "summary": "Quantum technologies could affect financial services through advanced optimisation, simulation and, over time, new approaches to cryptography and risk analysis. Their practical use remains dependent on technical maturity, cost, security and the availability of specialised talent. Financial regulators and institutions need to assess potential benefits alongside cybersecurity risks, including the future implications of quantum computing for existing encryption systems.",
+      "mainsquestion": "Discuss the potential applications and risks of quantum technology in the financial sector. How should India encourage innovation while safeguarding financial cybersecurity and stability?"
+    },
+    {
+      "id": 17,
+      "gs_paper": "GS Paper 3",
+      "priority": "High",
+      "topic": "Physicists are finding new ways to make electrons act strangely",
+      "summary": "Research into unusual electron behaviour in advanced materials can deepen understanding of quantum phenomena and may enable future applications in electronics, sensing and computing. In materials such as graphene and other quantum systems, electron interactions can produce properties not explained by simple classical models. Translating discoveries into technologies requires sustained fundamental research, specialised infrastructure and collaboration between universities and industry.",
+      "mainsquestion": "Explain the importance of research into quantum materials and unusual electron behaviour. Discuss how investment in fundamental physics can contribute to India's long-term science and technology capabilities."
+    },
+    {
+      "id": 18,
+      "gs_paper": "GS Paper 3",
+      "priority": "Medium",
+      "topic": "The physics of thermometers, temperatures and cold atoms",
+      "summary": "Research involving cold atoms allows scientists to study matter under highly controlled conditions and investigate quantum behaviour with exceptional precision. Such systems can support advances in measurement science, quantum simulation and the development of highly sensitive instruments. The research illustrates how fundamental physics can generate technologies with applications in precision measurement and future quantum systems.",
+      "mainsquestion": "What are cold-atom systems, and why are they important for modern physics? Discuss their potential applications in precision measurement and quantum technology."
+    },
+    {
+      "id": 19,
+      "gs_paper": "GS Paper 3",
+      "priority": "Medium",
+      "topic": "Technology needed to create matter from light in place",
+      "summary": "Research into converting light energy into matter explores fundamental predictions of quantum electrodynamics and the interaction of high-energy photons. Such experiments are scientifically significant because they test the relationship between energy and mass under extreme conditions. Although practical applications may be distant, the work advances understanding of fundamental particles and high-energy physical processes.",
+      "mainsquestion": "Explain the scientific significance of experiments exploring the conversion of light into matter. How do such studies contribute to fundamental physics and experimental science?"
+    },
+    {
+      "id": 20,
+      "gs_paper": "GS Paper 2",
+      "priority": "Medium",
+      "topic": "Gulf countries must have ties with Israel for a deal on Iran",
+      "summary": "Proposals linking Gulf-Israel relations to an agreement involving Iran reflect the complex security architecture of West Asia. Regional diplomacy is shaped by competing security concerns, energy interests, normalisation efforts and fears of escalation. For India, instability in the region can affect oil imports, expatriate communities, remittances and maritime trade, making balanced diplomacy and de-escalation important priorities.",
+      "mainsquestion": "Analyse the geopolitical factors shaping relations among Iran, Israel and the Gulf states. How should India protect its interests amid competing regional alignments?"
+    },
+    {
+      "id": 21,
+      "gs_paper": "GS Paper 2",
+      "priority": "Medium",
+      "topic": "President confers Padma awards; Dharmendra and N. Rajam honoured",
+      "summary": "The Padma Awards recognise distinguished contributions across fields including art, public service, science, literature, medicine and social work. Such civilian honours can acknowledge contributions that enrich India's cultural life and public institutions. Their broader significance lies in recognising diverse forms of service and achievement across regions, communities and professional backgrounds.",
+      "mainsquestion": "Discuss the role of civilian honours such as the Padma Awards in recognising contributions to society. How can such awards strengthen the visibility of diverse achievements and public service?"
+    }
+  ]
+}
+]
