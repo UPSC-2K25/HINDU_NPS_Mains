@@ -20,7 +20,7 @@ function setupEventListeners() {
     
     monthSelect.addEventListener('change', (e) => {
         if (e.target.value) {
-            loadMonthData(e.target.value, true); // Reset date input when switching months
+            loadMonthData(e.target.value, true);
         }
     });
 
@@ -75,7 +75,7 @@ async function loadMonthData(monthKey, setLatestDate = false) {
         rawMonthData = await response.json(); // Array of days
         
         if (setLatestDate && rawMonthData.length > 0) {
-            // Sort days descending to find the latest date
+            // Sort days descending to set the initial date picker to the latest day
             const sortedDays = [...rawMonthData].sort((a, b) => b.date.localeCompare(a.date));
             dateInput.value = sortedDays[0].date;
         }
@@ -88,17 +88,23 @@ async function loadMonthData(monthKey, setLatestDate = false) {
     }
 }
 
-// 3. Filter data strictly for selected date and search query
+// 3. Smart Filter Logic:
+// - If search is active: Search the entire month sorted newest to oldest.
+// - If search is empty: Restrict to selected date.
 function monthDataMapper(data, targetDate, query) {
-    return data.map(dayGroup => {
-        // Only render the selected date's articles
-        if (targetDate && dayGroup.date !== targetDate) {
+    // Sort month days in descending order (newest date first)
+    const sortedData = [...data].sort((a, b) => b.date.localeCompare(a.date));
+
+    return sortedData.map(dayGroup => {
+        // If NO search query is typed, strictly filter by selected date
+        if (!query && targetDate && dayGroup.date !== targetDate) {
             return null;
         }
 
         if (!dayGroup.articles) return null;
 
         const matchedArticles = dayGroup.articles.filter(article => {
+            if (!query) return true;
             return article.topic.toLowerCase().includes(query) || 
                    article.summary.toLowerCase().includes(query);
         });
@@ -113,17 +119,17 @@ function monthDataMapper(data, targetDate, query) {
 }
 
 function renderViews() {
-    const query = searchInput.value.toLowerCase();
+    const query = searchInput.value.trim().toLowerCase();
     const selectedDate = dateInput.value;
     const filteredData = monthDataMapper(rawMonthData, selectedDate, query);
 
-    renderArticles(filteredData);
-    renderMains(filteredData);
+    renderArticles(filteredData, query);
+    renderMains(filteredData, query);
 }
 
-function renderArticles(data) {
+function renderArticles(data, query) {
     if (data.length === 0) {
-        articlesContainer.innerHTML = `<div class="card loading-text">No articles found for the selected date.</div>`;
+        articlesContainer.innerHTML = `<div class="card loading-text">${query ? 'No matching articles found in this month.' : 'No articles found for the selected date.'}</div>`;
         return;
     }
 
@@ -131,7 +137,7 @@ function renderArticles(data) {
         <div class="day-group">
             <div class="day-header">
                 <span><i class="fa-regular fa-calendar"></i> ${formatDate(day.date)}</span>
-                <span class="badge">${day.articles.length} Articles</span>
+                <span class="badge">${day.articles.length} Article${day.articles.length > 1 ? 's' : ''}</span>
             </div>
             <div class="day-feed">
                 ${day.articles.map(art => `
@@ -153,7 +159,7 @@ function renderArticles(data) {
     `).join('');
 }
 
-function renderMains(data) {
+function renderMains(data, query) {
     const mainsList = [];
     data.forEach(day => {
         if (day.articles) {
@@ -171,7 +177,7 @@ function renderMains(data) {
     });
 
     if (mainsList.length === 0) {
-        mainsContainer.innerHTML = `<div class="card loading-text">No Mains practice questions found for current selection.</div>`;
+        mainsContainer.innerHTML = `<div class="card loading-text">${query ? 'No matching Mains questions found in this month.' : 'No Mains practice questions found for current selection.'}</div>`;
         return;
     }
 
@@ -179,7 +185,7 @@ function renderMains(data) {
         <div class="day-group">
             <div class="day-header">
                 <span><i class="fa-solid fa-pen-nib"></i> Mains Practice Questions</span>
-                <span class="badge">${mainsList.length} Questions</span>
+                <span class="badge">${mainsList.length} Question${mainsList.length > 1 ? 's' : ''}</span>
             </div>
             <div class="day-feed">
                 ${mainsList.map((item, idx) => `
